@@ -1,0 +1,144 @@
+brand:
+  name: "HORS CHAMP"
+  tagline: "Des vêtements essentiels, construits pour vivre dehors."
+  territory:
+    - "sobriété parisienne"
+    - "volume contemporain"
+    - "imperfection assumée"
+    - "protection technique"
+    - "nostalgie sportswear"
+
+drop:
+  number: "01"
+  name: "Drop 01 — Outside System"
+  hero_title: "OUTSIDE SYSTEM"
+  status: "Collection de démonstration"
+  launch_date: "Date à confirmer"
+  availability_message: "Informations de lancement à venir"
+  primary_cta:
+    label: "Accéder au drop"
+    href: "#access"
+  secondary_cta:
+    label: "Découvrir la collection"
+    href: "#collection"
+
+announcement:
+  text: "DROP 01 — DATE À CONFIRMER"
+
+navigation:
+  links:
+    - label: "Collection"
+      href: "#collection"
+    - label: "Manifeste"
+      href: "#manifesto"
+    - label: "Accès"
+      href: "#access"
+
+hero:
+  eyebrow: "DROP 01 — OUTSIDE SYSTEM"
+  title: "OUTSIDE SYSTEM"
+  subtitle: "Des vêtements essentiels, construits pour vivre dehors."
+  visual:
+    type: "placeholder"
+    description: "Silhouette streetwear oversize en mouvement, environnement urbain brut, lumière froide et textures patinées."
+    disclaimer: "Visuel illustratif de démonstration, non officiel."
+
+manifesto:
+  id: "manifesto"
+  title: "Pas une saison. Un système."
+  text: "Des pièces simples, pensées pour les déplacements, les couches et les usages quotidiens."
+
+lookbook:
+  title: "Porté dehors. Pensé pour durer."
+  description: "Volumes amples, superpositions et matières marquées par la vie urbaine."
+  visuals:
+    - description: "Silhouette complète en mouvement sur béton urbain."
+      type: "placeholder"
+    - description: "Superposition d'une veste technique et d'un hoodie ample."
+      type: "placeholder"
+    - description: "Gros plan sur coutures, matière lavée et finition patinée."
+      type: "placeholder"
+
+collection:
+  id: "collection"
+  title: "Les pièces du Drop 01"
+  subtitle: "Quatre essentiels pour évoluer hors du cadre."
+
+products:
+  - id: "field-hoodie"
+    name: "Field Hoodie"
+    description: "Hoodie oversize en coton lourd, lavé et structuré."
+    status: "Produit de démonstration"
+    image: "placeholder"
+    price: null
+    stock: null
+    materials_confirmed: false
+  - id: "layer-shell"
+    name: "Layer Shell"
+    description: "Une veste légère pensée comme une couche de protection quotidienne."
+    status: "Produit de démonstration"
+    image: "placeholder"
+    price: null
+    stock: null
+    materials_confirmed: false
+  - id: "archive-tee"
+    name: "Archive Tee"
+    description: "Un t-shirt ample, marqué par un imprimé discret et une finition légèrement patinée."
+    status: "Produit de démonstration"
+    image: "placeholder"
+    price: null
+    stock: null
+    materials_confirmed: false
+  - id: "signal-cap"
+    name: "Signal Cap"
+    description: "Une casquette six panneaux au volume souple, avec un détail réfléchissant."
+    status: "Produit de démonstration"
+    image: "placeholder"
+    price: null
+    stock: null
+    materials_confirmed: false
+
+construction:
+  title: "Le détail fait la différence."
+  introduction: "Une approche du vêtement centrée sur les volumes, les couches et les finitions."
+  details:
+    - title: "Volume"
+      description: "Des silhouettes amples pensées pour accompagner le mouvement."
+    - title: "Superposition"
+      description: "Des pièces conçues pour se combiner au quotidien."
+    - title: "Patine"
+      description: "Des textures et finitions qui assument leur caractère."
+  note: "Les caractéristiques techniques exactes restent à confirmer."
+
+access:
+  id: "access"
+  title: "Le drop arrive bientôt."
+  text: "Inscris-toi pour recevoir l'accès anticipé et les informations de lancement."
+  input_label: "Ton adresse email"
+  input_placeholder: "nom@exemple.fr"
+  button_label: "Rejoindre la liste"
+  confirmation_message: "Démonstration : aucune inscription n'a été enregistrée."
+  disclaimer: "Formulaire de démonstration : aucune adresse email n'est collectée ni conservée."
+  backend_required: false
+  submission_mode: "simulation_only"
+
+footer:
+  links:
+    - label: "Collection"
+      href: "#collection"
+    - label: "Manifeste"
+      href: "#manifesto"
+    - label: "Contact"
+      href: null
+      status: "À définir"
+    - label: "Instagram"
+      href: null
+      status: "À définir"
+  legal:
+    - label: "Mentions légales"
+      href: null
+      status: "À compléter avant mise en production"
+    - label: "Politique de confidentialité"
+      href: null
+      status: "À compléter avant mise en production"
+  copyright: "HORS CHAMP — Projet fictif de démonstration"
