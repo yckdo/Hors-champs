@@ -1,17 +1,23 @@
 # HORS CHAMP — Drop 01 / Outside System
-Landing page fictive réalisée pour l'atelier Product Building End to End — D4.
 
-## Lancer en local
+Landing page fictive créée pour l'atelier Product Building End to End — D4.
+
+## Site public
+Une fois GitHub Pages activé (Settings > Pages > Source: GitHub Actions) :
+https://yckdo.github.io/Hors-champs/
+
+## Développement
 ```bash
 npm install
 npm run dev
 ```
 
-## Déployer sur Netlify
-Connecter le dépôt GitHub dans Netlify, choisir la commande de build `npm run build` et le dossier de publication `dist`.
+## Déploiement GitHub Pages
+Le workflow `.github/workflows/deploy.yml` construit le projet Vite et publie `dist` à chaque push sur `main`.
+Le fichier `vite.config.js` configure le chemin public `/Hors-champs/`.
 
-## Modifier le contenu
-Modifier `content.yaml` à la racine. Le site relit le YAML au build et au développement.
+## Contenus
+Modifier `content.yaml` pour les textes, produits et messages du drop.
 
-## Important
-Site de démonstration : aucun backend, aucune collecte réelle, aucun paiement, aucune donnée de stock ou prix. Les visuels sont des illustrations CSS conceptuelles, pas des photographies de produits réels. Les liens sociaux et juridiques sont à compléter avant un lancement réel.
+## Démonstration uniquement
+Aucun backend, paiement, compte ou enregistrement d'email. Les images sont des illustrations CSS conceptuelles et non des photographies officielles. Prix, stocks et date de lancement restent à confirmer.
